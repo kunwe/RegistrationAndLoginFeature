@@ -24,8 +24,8 @@ public class LoginDetails {
 
         if (userCredentials.containsKey(username) && userCredentials.get(username).equals(password)) {
             JOptionPane.showMessageDialog(null, "Welcome, " + username + "!");
-            EasyKanban me = new EasyKanban();
-            me.main();
+           TaskManager me = new TaskManager(); 
+            me.addTask();
             return true;
         } else {
             JOptionPane.showMessageDialog(null, "Invalid username or password. Please try again.");
