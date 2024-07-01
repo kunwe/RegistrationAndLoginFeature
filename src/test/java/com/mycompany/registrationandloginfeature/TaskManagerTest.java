@@ -60,7 +60,7 @@ public class TaskManagerTest {
         task.put("Task Status", taskStatus);
 
         tasks.add(task);
-        manager.taskNumber++;
+
     }
 
     private void displayTasksTest(Task manager, List<Map<String, String>> tasks) {
